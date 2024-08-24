@@ -1,0 +1,98 @@
+.bg_img {
+    height: 50vh;
+}
+
+.bg_clr {
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+
+:root {
+    --color: rgba(2, 108, 232, 1);
+    --black: black;
+    --gray: rgba(229, 229, 229, 1);
+}
+
+.blue {
+    color: var(--color);
+}
+
+.dropdown_btn {
+    background-color: transparent !important;
+    border-color: var(--gray) !important;
+    color: var(--black) !important;
+    border-radius: 5px;
+    width: 17vw;
+}
+
+/* .btndate {
+    background-color: transparent !important;
+    border-color: var(--gray) !important;
+    color: var(--black) !important;
+    border-radius: 5px;
+    width: 17vw;
+} */
+.btndate {
+    background-color: transparent !important;
+    color: var(--black) !important;
+    border: 1px solid var(--gray) !important ;
+    border-radius: 5px;
+    width: 17vw;
+    height: 35px !important;
+}
+
+.search_btn {
+    background-color: var(--color);
+    width: 17vw;
+}
+
+.dropdown_tgle {
+    width: 17vw;
+    border-radius: 0 !important;
+    border: 0 !important;
+    -webkit-box-shadow: 0px 3px 14px 0px rgba(214, 211, 214, 1);
+    -moz-box-shadow: 0px 3px 14px 0px rgba(214, 211, 214, 1);
+    box-shadow: 0px 3px 14px 0px rgba(214, 211, 214, 1);
+    font-size: 19 !important;
+}
+.input_btn{
+    border: 0 !important;
+}
+
+
+/* Responsivness */
+
+@media only screen and (max-width: 281px) {}
+
+@media only screen and (max-width: 575px) {}
+
+@media only screen and (max-width: 767px) {}
+
+@media only screen and (max-width: 991px) { 
+    
+.dropdown_btn {
+    width: 90% !important;
+}
+
+.btndate {
+    width: 90% !important;
+    height: 35px !important;
+}
+
+.search_btn {
+    width: 90% !important;
+}
+
+.dropdown_tgle {
+    width: 90% !important;
+    font-size: 19 !important;
+}
+}
+
+@media only screen and (max-width: 1199px) {}
+
+@media only screen and (max-width: 1360px) {}
+
+@media only screen and (max-width: 1600px) {}
+
+@media only screen and (max-width: 1920px) {}
